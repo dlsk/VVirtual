@@ -1,4 +1,4 @@
-﻿Log file open, 04/06/19 01:00:22
+﻿Log file open, 04/09/19 10:31:48
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VVIRTUAL
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.288313
+LogStats: Stats thread started at 5.417516
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.089s to configure plugins.
+LogStreaming: Display: Took  0.428s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: OS: Windows 7 (Service Pack 1), CPU: Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 4600
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line:  
-LogInit: Base Directory: D:/Unreal Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Program Files (x86)/ue/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,975 +147,639 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.062s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.05-23.00.22:783][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.05-23.00.22:783][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.05-23.00.22:794][  0]LogHAL: Display: Platform has ~ 16 GB [17130807296 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.05-23.00.22:795][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.04.05-23.00.22:795][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.05-23.00.22:795][  0]LogInit: Computer: DESKTOP-EL3I4AT
-[2019.04.05-23.00.22:795][  0]LogInit: User: Gaspard
-[2019.04.05-23.00.22:795][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.05-23.00.22:795][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.04.05-23.00.22:795][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.04.05-23.00.22:795][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.05-23.00.22:795][  0]LogMemory: Process Physical Memory: 103.94 MB used, 103.95 MB peak
-[2019.04.05-23.00.22:795][  0]LogMemory: Process Virtual Memory: 90.96 MB used, 90.96 MB peak
-[2019.04.05-23.00.22:795][  0]LogMemory: Physical Memory: 7518.82 MB used,  8818.39 MB free, 16337.21 MB total
-[2019.04.05-23.00.22:795][  0]LogMemory: Virtual Memory: 4633.52 MB used,  8818.39 MB free, 134217728.00 MB total
-[2019.04.05-23.00.24:163][  0]LogInit: Using OS detected language (fr-FR).
-[2019.04.05-23.00.24:163][  0]LogInit: Using OS detected locale (fr-FR).
-[2019.04.05-23.00.24:164][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2019.04.05-23.00.24:167][  0]LogStreaming: Display: Took  0.003s to InitEngineTextLocalization.
-[2019.04.05-23.00.24:221][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.05-23.00.24:221][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.05-23.00.24:472][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.05-23.00.24:472][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.05-23.00.24:546][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.04.05-23.00.24:546][  0]LogD3D11RHI:       8081/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2019.04.05-23.00.24:549][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.05-23.00.24:549][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.05-23.00.24:549][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.05-23.00.24:558][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.05-23.00.24:558][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.05-23.00.24:558][  0]LogWindows: EnumDisplayDevices:
-[2019.04.05-23.00.24:558][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.04.05-23.00.24:558][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.04.05-23.00.24:559][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.04.05-23.00.24:559][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.04.05-23.00.24:559][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.04.05-23.00.24:559][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.04.05-23.00.24:559][  0]LogD3D11RHI:   Driver Version: 419.67 (internal:25.21.14.1967, unified:419.67)
-[2019.04.05-23.00.24:559][  0]LogD3D11RHI:      Driver Date: 3-17-2019
-[2019.04.05-23.00.24:559][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
-[2019.04.05-23.00.24:609][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.05-23.00.24:628][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.04.05-23.00.24:766][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Intermediate/Shaders/WorkingDirectory/19604/).
-[2019.04.05-23.00.24:766][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gaspard/AppData/Local/Temp/UnrealShaderWorkingDir/DF436E784677A2F498E1429AF9078DFD/'.
-[2019.04.05-23.00.25:358][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.05-23.00.25:374][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.05-23.00.25:389][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.05-23.00.25:403][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.05-23.00.25:416][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.05-23.00.25:430][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.05-23.00.25:442][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.05-23.00.25:457][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.05-23.00.25:464][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.05-23.00.25:548][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.05-23.00.25:551][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.05-23.00.25:616][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.05-23.00.25:616][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.05-23.00.25:641][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.05-23.00.25:641][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.05-23.00.25:655][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.05-23.00.25:668][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.05-23.00.25:680][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.05-23.00.25:693][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.05-23.00.25:703][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.05-23.00.25:703][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.05-23.00.25:751][  0]LogXGEController: Cleaning working directory: C:/Users/Gaspard/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.05-23.00.25:751][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.05-23.00.25:751][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.05-23.00.25:751][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.05-23.00.26:556][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.05-23.00.26:625][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Gaspard/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.05-23.00.26:625][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gaspard/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.04.05-23.00.26:625][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SUPERPROJET/VVirtual/VVIRTUAL/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.05-23.00.26:625][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.05-23.00.26:625][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SUPERPROJET/VVirtual/VVIRTUAL/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.05-23.00.26:625][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.05-23.00.26:641][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.05-23.00.26:654][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gaspard/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.05-23.00.26:654][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.05-23.00.26:654][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.05-23.00.26:674][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.05-23.00.26:676][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.05-23.00.26:676][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.05-23.00.26:757][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2019.04.05-23.00.27:099][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.05-23.00.27:236][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.05-23.00.27:238][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.05-23.00.27:238][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.05-23.00.27:238][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.05-23.00.27:238][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.05-23.00.27:267][  0]LogNetVersion: VVIRTUAL 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1343756483)
-[2019.04.05-23.00.27:813][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.115240 seconds
-[2019.04.05-23.00.27:820][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.04.05-23.00.27:820][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.04.05-23.00.27:820][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.05-23.00.28:745][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.05-23.00.28:760][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.05-23.00.28:918][  0]SourceControl: Source control is disabled
-[2019.04.05-23.00.28:918][  0]SourceControl: Source control is disabled
-[2019.04.05-23.00.28:919][  0]SourceControl: Source control is disabled
-[2019.04.05-23.00.28:920][  0]SourceControl: Source control is disabled
-[2019.04.05-23.00.29:077][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.05-23.00.29:298][  0]LogOcInput: OculusInput pre-init called
-[2019.04.05-23.00.29:358][  0]LogEngine: Initializing Engine...
-[2019.04.05-23.00.29:359][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.05-23.00.29:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.05-23.00.29:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.05-23.00.29:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.05-23.00.29:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.05-23.00.29:586][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.05-23.00.29:602][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.05-23.00.29:677][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.00.29:794][  0]LogInit: FAudioDevice initialized.
-[2019.04.05-23.00.29:794][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.05-23.00.29:952][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/Gaspard/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.05-23.00.29:957][  0]LogInit: Texture streaming: Enabled
-[2019.04.05-23.00.29:972][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.05-23.00.29:987][  0]LogInit: Transaction tracking system initialized
-[2019.04.05-23.00.30:004][  0]BlueprintLog: New page: Editor Load
-[2019.04.05-23.00.30:070][  0]LocalizationService: Localization service is disabled
-[2019.04.05-23.00.30:135][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
-[2019.04.05-23.00.30:135][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
-[2019.04.05-23.00.30:135][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
-[2019.04.05-23.00.30:348][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.05-23.00.30:348][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.05-23.00.30:348][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.05-23.00.30:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.05-23.00.30:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.05-23.00.30:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.05-23.00.30:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.05-23.00.30:471][  0]LogFileCache: Scanning file cache for directory 'D:/SUPERPROJET/VVirtual/VVIRTUAL/Content/' took 0.02s
-[2019.04.05-23.00.30:471][  0]SourceControl: Source control is disabled
-[2019.04.05-23.00.30:471][  0]Cmd: MAP LOAD FILE="../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.05-23.00.30:471][  0]LogEditorServer: Warning: Can't find file '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.05-23.00.30:471][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.05-23.00.30:527][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55,216ms to complete.
-[2019.04.05-23.00.30:527][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.056
-[2019.04.05-23.00.30:678][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.00.30:687][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.00.30:695][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.00.30:703][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.00.30:709][  0]LogCollectionManager: Loaded 0 collections in 0.000952 seconds
-[2019.04.05-23.00.30:761][  0]LogFileCache: Scanning file cache for directory 'D:/SUPERPROJET/VVirtual/VVIRTUAL/Saved/Collections/' took 0.01s
-[2019.04.05-23.00.30:761][  0]LogFileCache: Scanning file cache for directory 'D:/SUPERPROJET/VVirtual/VVIRTUAL/Content/Developers/Gaspard/Collections/' took 0.01s
-[2019.04.05-23.00.30:761][  0]LogFileCache: Scanning file cache for directory 'D:/SUPERPROJET/VVirtual/VVIRTUAL/Content/Collections/' took 0.01s
-[2019.04.05-23.00.30:761][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.04.05-23.00.30:771][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2572 classes and 603 folders.
-[2019.04.05-23.00.30:775][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.04.05-23.00.30:834][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.04.05-23.00.30:841][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.04.05-23.00.30:904][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.05-23.00.30:906][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.05-23.00.30:914][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.05-23.00.31:003][  0]LogRenderer: Reallocating scene render targets to support 1140x592 Format 9 NumSamples 1 (Frame:1).
-[2019.04.05-23.00.31:227][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.04.05-23.00.31:227][  0]LogLoad: (Engine Initialization) Total time: 10.38 seconds
-[2019.04.05-23.00.31:227][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.05-23.00.31:268][  0]LogContentStreaming: Texture pool size now 800 MB
-[2019.04.05-23.00.31:284][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.05-23.00.31:317][  1]LogAssetRegistry: Asset discovery search completed in 4.5821 seconds
-[2019.04.05-23.00.31:318][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.04.05-23.00.31:319][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
-[2019.04.05-23.00.37:808][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-23.00.38:181][397]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.05-23.00.38:193][397]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2
-[2019.04.05-23.00.38:764][397]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2019.04.05-23.00.39:668][397]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.04.05-23.00.40:102][398]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.04.05-23.00.49:295][932]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.00.49:308][932]LogAssetEditorManager: Opening Asset editor for World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard
-[2019.04.05-23.00.49:344][932]Cmd: MAP LOAD FILE="../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.05-23.00.49:344][932]LightingResults: New page: Lighting Build
-[2019.04.05-23.00.49:346][932]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
-[2019.04.05-23.00.49:347][932]LoadErrors: New page: Loading map: Map_Gaspard.umap
-[2019.04.05-23.00.49:347][932]MapCheck: New page: Map Check
-[2019.04.05-23.00.49:347][932]LightingResults: New page: Lighting Build
-[2019.04.05-23.00.49:459][932]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.05-23.00.49:523][932]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.05-23.00.49:594][932]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71,564ms to complete.
-[2019.04.05-23.00.49:594][932]LogFileHelpers: Loading map 'Map_Gaspard' took 0.251
-[2019.04.05-23.00.51:908][ 67]LogEditorViewport: Clicking on Actor (LMB): MaterialChangerPlateform_C (MaterialChangerPlateform2)
-[2019.04.05-23.01.01:941][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-23.01.02:078][673]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINTS/FirstPersonBP/Blueprints/MaterialChangerPlateform.MaterialChangerPlateform
-[2019.04.05-23.01.09:787][110]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.01.10:532][133]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/MaterialChangerPlateform31309ED54C34929B18BFC8BA2558EF4D.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/MaterialChangerPlateform.uasset'
-[2019.04.05-23.02.20:842][278]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.02.21:455][302]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.02.21:476][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.02.21:489][302]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:02:21)
-[2019.04.05-23.02.21:489][302]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.02.21:493][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003886s)
-[2019.04.05-23.02.21:494][302]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.02.21:494][302]LogPlayLevel: PIE: World Init took: (0.000994s)
-[2019.04.05-23.02.21:494][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.005067s)
-[2019.04.05-23.02.21:589][302]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.02.21:692][302]LogInit: FAudioDevice initialized.
-[2019.04.05-23.02.21:710][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.02.21:787][302]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.02.21:789][302]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.02.21
-[2019.04.05-23.02.21:789][302]LogWorld: Bringing up level for play took: 0.000850
-[2019.04.05-23.02.21:811][302]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2019.04.05-23.02.21:814][302]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,198
-[2019.04.05-23.02.21:876][302]LogRenderer: Reallocating scene render targets to support 1292x756 Format 9 NumSamples 1 (Frame:1).
-[2019.04.05-23.02.22:511][338]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.02.23:511][398]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.02.24:512][458]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.02.25:512][518]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.02.26:513][578]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.02.27:513][638]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.02.28:512][698]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.02.29:512][758]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
-[2019.04.05-23.02.30:181][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.02.30:199][798]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.02.30:239][798]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.02.30:308][799]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.04.05-23.02.34:765][ 66]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.02.35:362][ 91]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.02.35:386][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.02.35:386][ 91]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:02:35)
-[2019.04.05-23.02.35:386][ 91]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.02.35:389][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003163s)
-[2019.04.05-23.02.35:390][ 91]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.02.35:391][ 91]LogPlayLevel: PIE: World Init took: (0.001180s)
-[2019.04.05-23.02.35:391][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004562s)
-[2019.04.05-23.02.35:487][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.02.35:594][ 91]LogInit: FAudioDevice initialized.
-[2019.04.05-23.02.35:612][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.02.35:665][ 91]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.02.35:668][ 91]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.02.35
-[2019.04.05-23.02.35:668][ 91]LogWorld: Bringing up level for play took: 0.001856
-[2019.04.05-23.02.35:683][ 91]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,067
-[2019.04.05-23.02.36:352][127]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.02.37:351][187]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.02.38:352][247]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.02.39:352][307]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.02.40:352][367]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.02.41:352][427]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.02.42:270][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.02.42:288][482]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.02.42:329][482]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.02.42:397][483]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.04.05-23.02.54:525][206]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.02.55:428][249]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.02.55:454][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.02.55:454][249]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:02:55)
-[2019.04.05-23.02.55:454][249]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.02.55:457][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002851s)
-[2019.04.05-23.02.55:458][249]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.02.55:458][249]LogPlayLevel: PIE: World Init took: (0.000932s)
-[2019.04.05-23.02.55:458][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.003937s)
-[2019.04.05-23.02.55:550][249]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.02.55:654][249]LogInit: FAudioDevice initialized.
-[2019.04.05-23.02.55:676][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.02.55:728][249]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.02.55:729][249]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.02.55
-[2019.04.05-23.02.55:729][249]LogWorld: Bringing up level for play took: 0.000699
-[2019.04.05-23.02.55:744][249]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,127
-[2019.04.05-23.02.56:425][286]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.02.57:425][346]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.02.58:425][406]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.02.59:425][466]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.03.00:427][526]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.03.01:426][586]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.03.02:210][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.03.02:227][633]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.03.02:267][633]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.03.02:334][634]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.04.05-23.04.08:449][247]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.04.10:245][343]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.04.10:268][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.04.10:268][343]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:04:10)
-[2019.04.05-23.04.10:268][343]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.04.10:271][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002897s)
-[2019.04.05-23.04.10:272][343]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.04.10:272][343]LogPlayLevel: PIE: World Init took: (0.001292s)
-[2019.04.05-23.04.10:272][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004326s)
-[2019.04.05-23.04.10:356][343]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.04.10:457][343]LogInit: FAudioDevice initialized.
-[2019.04.05-23.04.10:477][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.04.10:526][343]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.04.10:528][343]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.04.10
-[2019.04.05-23.04.10:528][343]LogWorld: Bringing up level for play took: 0.001409
-[2019.04.05-23.04.10:543][343]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,926
-[2019.04.05-23.04.11:238][381]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.04.12:237][441]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.04.13:236][501]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.04.14:236][561]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.04.15:237][621]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.04.16:238][681]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.04.17:237][741]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.04.18:237][801]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
-[2019.04.05-23.04.19:237][861]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 1.0
-[2019.04.05-23.04.20:238][921]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 0.0
-[2019.04.05-23.04.21:237][981]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -1.0
-[2019.04.05-23.04.22:238][ 41]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -2.0
-[2019.04.05-23.04.22:354][ 48]LogCharacterMovement: FirstPersonCharacterv2_C_0 is stuck and failed to move! Velocity: X=-170.86 Y=186.65 Z=0.00 Location: X=202.60 Y=-515.01 Z=116.04 Normal: X=0.71 Y=0.11 Z=-0.69 PenetrationDepth:0.344 Actor:MaterialChangerPlateform2 Component:Static Mesh BoneName:None (0 other events since notify)
-[2019.04.05-23.04.23:238][101]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -3.0
-[2019.04.05-23.04.24:238][161]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -4.0
-[2019.04.05-23.04.25:237][221]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -5.0
-[2019.04.05-23.04.26:237][281]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -6.0
-[2019.04.05-23.04.27:239][341]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -7.0
-[2019.04.05-23.04.28:238][401]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -8.0
-[2019.04.05-23.04.28:707][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.04.28:724][429]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.04.28:766][429]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.04.28:836][430]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.04.05-23.04.41:888][213]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.04.42:444][235]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.04.42:467][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.04.42:467][235]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:04:42)
-[2019.04.05-23.04.42:468][235]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.04.42:470][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002667s)
-[2019.04.05-23.04.42:471][235]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.04.42:472][235]LogPlayLevel: PIE: World Init took: (0.001152s)
-[2019.04.05-23.04.42:472][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004075s)
-[2019.04.05-23.04.42:564][235]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.04.42:666][235]LogInit: FAudioDevice initialized.
-[2019.04.05-23.04.42:685][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.04.42:735][235]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.04.42:737][235]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.04.42
-[2019.04.05-23.04.42:737][235]LogWorld: Bringing up level for play took: 0.000755
-[2019.04.05-23.04.42:753][235]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 1,137
-[2019.04.05-23.04.43:439][272]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.04.44:439][332]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.04.45:439][392]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.04.46:039][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.04.46:055][428]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.04.46:096][428]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.04.46:163][429]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.04.05-23.04.49:852][650]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.04.50:286][661]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/MaterialChangerPlateform989BF6814F1B2B28714C71ACAEC14EA3.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/MaterialChangerPlateform.uasset'
-[2019.04.05-23.04.50:877][696]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.04.50:901][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.04.50:901][696]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:04:50)
-[2019.04.05-23.04.50:901][696]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.04.50:904][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002960s)
-[2019.04.05-23.04.50:905][696]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.04.50:905][696]LogPlayLevel: PIE: World Init took: (0.001029s)
-[2019.04.05-23.04.50:905][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004175s)
-[2019.04.05-23.04.50:997][696]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.04.51:094][696]LogInit: FAudioDevice initialized.
-[2019.04.05-23.04.51:112][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.04.51:170][696]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.04.51:171][696]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.04.51
-[2019.04.05-23.04.51:171][696]LogWorld: Bringing up level for play took: 0.000768
-[2019.04.05-23.04.51:186][696]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard -0,431
-[2019.04.05-23.04.51:872][733]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.04.52:871][793]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.04.53:872][853]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.04.54:873][913]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.04.55:872][973]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.04.56:871][ 33]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.04.57:871][ 93]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.04.58:872][153]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
-[2019.04.05-23.04.59:871][213]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 1.0
-[2019.04.05-23.05.00:872][273]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 0.0
-[2019.04.05-23.05.01:872][333]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -1.0
-[2019.04.05-23.05.02:872][393]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -2.0
-[2019.04.05-23.05.03:872][453]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -3.0
-[2019.04.05-23.05.04:872][513]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -4.0
-[2019.04.05-23.05.05:872][573]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -5.0
-[2019.04.05-23.05.06:872][633]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -6.0
-[2019.04.05-23.05.07:874][692]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -7.0
-[2019.04.05-23.05.08:024][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.05.08:041][701]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.05.08:082][701]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.05.08:145][702]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.04.05-23.05.33:785][226]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2019.04.05-23.05.33:785][226]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2019.04.05-23.05.33:788][226]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2019.04.05-23.05.33:788][226]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2019.04.05-23.05.34:758][283]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.05.37:788][437]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.05.37:810][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.05.37:810][437]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:05:37)
-[2019.04.05-23.05.37:810][437]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.05.37:813][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003152s)
-[2019.04.05-23.05.37:814][437]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.05.37:814][437]LogPlayLevel: PIE: World Init took: (0.000958s)
-[2019.04.05-23.05.37:814][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004303s)
-[2019.04.05-23.05.37:903][437]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.05.38:000][437]LogInit: FAudioDevice initialized.
-[2019.04.05-23.05.38:017][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.05.38:084][437]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.05.38:086][437]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.05.38
-[2019.04.05-23.05.38:086][437]LogWorld: Bringing up level for play took: 0.000793
-[2019.04.05-23.05.38:109][437]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,492
-[2019.04.05-23.05.38:778][474]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.05.39:778][534]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.05.40:778][594]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.05.41:777][654]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.05.42:778][714]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.05.43:777][774]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.05.44:778][834]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.05.45:778][894]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
-[2019.04.05-23.05.46:778][954]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 1.0
-[2019.04.05-23.05.47:778][ 14]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 0.0
-[2019.04.05-23.05.48:778][ 74]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -1.0
-[2019.04.05-23.05.49:596][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.05.49:613][123]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.05.49:653][123]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.05.49:700][124]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.04.05-23.05.53:338][329]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv25532A5B9403B22DF71A27EA8D00C99EC.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.06.10:854][378]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.06.11:534][406]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.06.11:557][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.06.11:557][406]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:06:11)
-[2019.04.05-23.06.11:557][406]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.06.11:561][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003008s)
-[2019.04.05-23.06.11:561][406]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.06.11:562][406]LogPlayLevel: PIE: World Init took: (0.001122s)
-[2019.04.05-23.06.11:562][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004268s)
-[2019.04.05-23.06.11:653][406]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.06.11:751][406]LogInit: FAudioDevice initialized.
-[2019.04.05-23.06.11:770][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.06.11:824][406]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.06.11:825][406]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.06.11
-[2019.04.05-23.06.11:826][406]LogWorld: Bringing up level for play took: 0.000773
-[2019.04.05-23.06.11:841][406]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,225
-[2019.04.05-23.06.12:521][443]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.06.13:520][503]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.06.14:520][563]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.06.15:520][623]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.06.16:520][683]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.06.17:531][743]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.06.17:899][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.06.17:917][765]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.06.17:957][765]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.06.18:022][766]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.04.05-23.06.50:871][711]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.06.51:653][746]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.06.51:677][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.06.51:677][746]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:06:51)
-[2019.04.05-23.06.51:678][746]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.06.51:681][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002942s)
-[2019.04.05-23.06.51:681][746]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.06.51:682][746]LogPlayLevel: PIE: World Init took: (0.001189s)
-[2019.04.05-23.06.51:682][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004363s)
-[2019.04.05-23.06.51:775][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.06.51:872][746]LogInit: FAudioDevice initialized.
-[2019.04.05-23.06.51:890][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.06.51:946][746]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.06.51:948][746]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.06.51
-[2019.04.05-23.06.51:948][746]LogWorld: Bringing up level for play took: 0.001053
-[2019.04.05-23.06.51:963][746]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,346
-[2019.04.05-23.06.52:651][784]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.06.53:650][844]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.06.54:650][904]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.06.55:651][964]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.06.56:650][ 24]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.06.57:650][ 84]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.06.58:651][144]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.06.59:651][204]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
-[2019.04.05-23.07.00:652][264]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 1.0
-[2019.04.05-23.07.01:651][324]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 0.0
-[2019.04.05-23.07.01:737][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.07.01:754][329]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.07.01:797][329]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.07.01:867][330]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.04.05-23.07.34:389][243]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.07.35:067][272]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.07.35:091][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.07.35:091][272]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:07:35)
-[2019.04.05-23.07.35:091][272]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.07.35:094][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002657s)
-[2019.04.05-23.07.35:094][272]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.07.35:095][272]LogPlayLevel: PIE: World Init took: (0.001071s)
-[2019.04.05-23.07.35:095][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.003889s)
-[2019.04.05-23.07.35:190][272]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.07.35:288][272]LogInit: FAudioDevice initialized.
-[2019.04.05-23.07.35:307][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.07.35:357][272]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.07.35:359][272]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.07.35
-[2019.04.05-23.07.35:359][272]LogWorld: Bringing up level for play took: 0.000927
-[2019.04.05-23.07.35:374][272]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard -0,243
-[2019.04.05-23.07.36:053][309]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.07.37:053][369]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.07.38:053][429]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.07.39:053][489]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.07.40:054][549]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.07.41:054][609]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.07.42:053][669]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.07.42:988][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.07.43:005][725]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.07.43:044][725]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.07.43:113][726]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.04.05-23.09.01:032][303]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.09.01:800][323]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.09.01:821][323]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.04.05-23.09.01:851][323]LogPlayLevel: [PlayLevel] Compiling MaterialChangerPlateform before play...
-[2019.04.05-23.09.02:018][323]LogPlayLevel: PlayLevel: Blueprint regeneration took 196 ms (1 blueprints)
-[2019.04.05-23.09.02:018][323]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:09:02)
-[2019.04.05-23.09.02:018][323]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.09.02:020][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003217s)
-[2019.04.05-23.09.02:021][323]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.09.02:021][323]LogPlayLevel: PIE: World Init took: (0.001129s)
-[2019.04.05-23.09.02:022][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004564s)
-[2019.04.05-23.09.02:114][323]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.09.02:208][323]LogInit: FAudioDevice initialized.
-[2019.04.05-23.09.02:228][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.09.02:287][323]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.09.02:289][323]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.09.02
-[2019.04.05-23.09.02:289][323]LogWorld: Bringing up level for play took: 0.000845
-[2019.04.05-23.09.02:305][323]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,688
-[2019.04.05-23.09.03:107][359]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.09.04:105][419]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.09.04:588][448]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:02EC
-[2019.04.05-23.09.04:588][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.04:588][448]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:033E
-[2019.04.05-23.09.04:588][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.04:588][448]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.05:105][479]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.09.06:105][539]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.09.07:105][599]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.09.08:105][659]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.09.08:306][671]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:03B8
-[2019.04.05-23.09.08:306][671]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.08:306][671]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:040A
-[2019.04.05-23.09.08:306][671]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.08:306][671]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.09:107][719]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.09.10:007][773]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:02EC
-[2019.04.05-23.09.10:007][773]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.10:007][773]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:033E
-[2019.04.05-23.09.10:007][773]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.10:007][773]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.10:107][779]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
-[2019.04.05-23.09.10:773][819]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:03B8
-[2019.04.05-23.09.10:773][819]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.10:773][819]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:040A
-[2019.04.05-23.09.10:773][819]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.10:774][819]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.11:107][839]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 1.0
-[2019.04.05-23.09.11:240][847]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:02EC
-[2019.04.05-23.09.11:240][847]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.11:240][847]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:033E
-[2019.04.05-23.09.11:240][847]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.11:241][847]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.11:640][871]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:03B8
-[2019.04.05-23.09.11:640][871]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.11:641][871]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:040A
-[2019.04.05-23.09.11:641][871]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.11:641][871]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.11:940][889]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:02EC
-[2019.04.05-23.09.11:940][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.11:940][889]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:033E
-[2019.04.05-23.09.11:940][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.11:940][889]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.12:107][899]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 0.0
-[2019.04.05-23.09.12:141][901]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:03B8
-[2019.04.05-23.09.12:141][901]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.12:141][901]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:040A
-[2019.04.05-23.09.12:141][901]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.12:141][901]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.12:290][910]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform
-	FirstPersonCharacterv2_C /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard:PersistentLevel.FirstPersonCharacterv2_C_0
-	Function /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2_C:ExecuteUbergraph_FirstPersonCharacterv2:02EC
-[2019.04.05-23.09.12:290][910]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.12:291][910]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.12:291][910]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.12:457][920]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.12:457][920]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.12:457][920]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.12:591][928]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.12:591][928]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.12:591][928]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.12:909][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.09.12:927][947]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.09.12:962][947]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.09.13:038][948]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.04.05-23.09.22:784][518]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.09.23:531][526]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv2002DD7D94CF745D33D6CADA5EFBDC503.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.09.27:727][775]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.09.28:280][791]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/MaterialChangerPlateform8B8815574D5AF2FD4010CB82405C3731.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/MaterialChangerPlateform.uasset'
-[2019.04.05-23.09.28:869][826]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.09.28:892][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.09.28:892][826]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:09:28)
-[2019.04.05-23.09.28:893][826]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.09.28:895][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002657s)
-[2019.04.05-23.09.28:896][826]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.09.28:897][826]LogPlayLevel: PIE: World Init took: (0.001221s)
-[2019.04.05-23.09.28:897][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004132s)
-[2019.04.05-23.09.28:990][826]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.09.29:088][826]LogInit: FAudioDevice initialized.
-[2019.04.05-23.09.29:107][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.09.29:157][826]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.09.29:159][826]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.09.29
-[2019.04.05-23.09.29:159][826]LogWorld: Bringing up level for play took: 0.000836
-[2019.04.05-23.09.29:174][826]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard -0,442
-[2019.04.05-23.09.29:867][864]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.09.30:867][924]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.09.31:150][941]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.31:150][941]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.31:150][941]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.31:867][984]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.09.32:868][ 44]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.09.32:984][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.32:984][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.32:984][ 51]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.33:618][ 89]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.33:618][ 89]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.33:618][ 89]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.33:767][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.33:767][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.33:767][ 98]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.33:867][104]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.09.33:968][110]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.33:968][110]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.33:968][110]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.34:101][118]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.34:101][118]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.34:101][118]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.34:418][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.34:418][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.34:418][137]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.34:568][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.34:568][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.34:568][146]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.34:717][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.34:717][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.34:717][155]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.34:801][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.34:802][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.34:802][160]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.34:867][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.34:867][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.34:867][164]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.34:868][164]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.09.34:951][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.09.34:951][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.09.34:951][169]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.09.35:085][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.09.35:103][177]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.09.35:139][177]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.09.35:221][178]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2019.04.05-23.10.01:567][735]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.10.02:222][736]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv2E8D529024219AEFBED4ED1B141E29854.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.10.03:015][782]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.10.03:037][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.10.03:037][782]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:10:03)
-[2019.04.05-23.10.03:037][782]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.10.03:040][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003026s)
-[2019.04.05-23.10.03:041][782]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.10.03:041][782]LogPlayLevel: PIE: World Init took: (0.000936s)
-[2019.04.05-23.10.03:041][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004140s)
-[2019.04.05-23.10.03:130][782]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.10.03:233][782]LogInit: FAudioDevice initialized.
-[2019.04.05-23.10.03:253][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.10.03:317][782]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.10.03:319][782]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.10.03
-[2019.04.05-23.10.03:319][782]LogWorld: Bringing up level for play took: 0.000954
-[2019.04.05-23.10.03:342][782]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard -0,275
-[2019.04.05-23.10.04:009][819]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.10.04:756][864]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.10.04:756][864]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.10.04:756][864]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.10.05:006][879]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.10.05:459][906]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.10.05:459][906]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.10.05:459][906]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.10.05:941][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.10.05:959][935]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.10.06:001][935]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.10.06:087][936]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2019.04.05-23.10.25:862][107]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.10.26:626][127]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.10.26:648][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.10.26:648][127]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:10:26)
-[2019.04.05-23.10.26:648][127]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.10.26:652][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003147s)
-[2019.04.05-23.10.26:652][127]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.10.26:653][127]LogPlayLevel: PIE: World Init took: (0.000968s)
-[2019.04.05-23.10.26:653][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004325s)
-[2019.04.05-23.10.26:744][127]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.10.26:842][127]LogInit: FAudioDevice initialized.
-[2019.04.05-23.10.26:861][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.10.26:928][127]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.10.26:929][127]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.10.26
-[2019.04.05-23.10.26:930][127]LogWorld: Bringing up level for play took: 0.000862
-[2019.04.05-23.10.26:952][127]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard -0,665
-[2019.04.05-23.10.27:626][164]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.10.28:626][224]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.10.28:993][246]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.10.28:993][246]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaterial_Changer_Plateform". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Print String
-[2019.04.05-23.10.28:993][246]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] false
-[2019.04.05-23.10.29:625][284]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.10.30:127][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.10.30:144][314]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.10.30:181][314]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.10.30:259][315]LogPlayLevel: Display: Destroying online subsystem :Context_20
-[2019.04.05-23.10.37:418][735]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.10.38:100][739]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv200E1B60542707477CDCF7B9EBA101EB5.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.10.44:757][124]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.10.45:549][158]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.10.45:573][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.10.45:573][158]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:10:45)
-[2019.04.05-23.10.45:573][158]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.10.45:577][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003347s)
-[2019.04.05-23.10.45:578][158]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.10.45:578][158]LogPlayLevel: PIE: World Init took: (0.000975s)
-[2019.04.05-23.10.45:578][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004515s)
-[2019.04.05-23.10.45:669][158]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.10.45:768][158]LogInit: FAudioDevice initialized.
-[2019.04.05-23.10.45:787][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.10.45:843][158]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.10.45:845][158]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.10.45
-[2019.04.05-23.10.45:845][158]LogWorld: Bringing up level for play took: 0.000718
-[2019.04.05-23.10.45:860][158]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,243
-[2019.04.05-23.10.46:541][194]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.10.47:543][254]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.10.48:543][314]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.10.49:544][374]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.10.50:511][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.10.50:528][432]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.10.50:571][432]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.10.50:642][433]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2019.04.05-23.12.01:112][604]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.12.01:988][619]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv2936282B342779B93704F009BCBC611A6.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.12.03:608][710]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/Map_Gaspard742A9970450B64D7A6C93897D00CE6ED.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.umap'
-[2019.04.05-23.12.17:878][545]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.12.18:633][554]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv273DF426043B04707F965B78A47EA58B4.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.12.40:468][824]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.12.41:165][839]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.12.41:187][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.12.41:187][839]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:12:41)
-[2019.04.05-23.12.41:188][839]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.12.41:191][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003363s)
-[2019.04.05-23.12.41:192][839]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.12.41:192][839]LogPlayLevel: PIE: World Init took: (0.000986s)
-[2019.04.05-23.12.41:192][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004611s)
-[2019.04.05-23.12.41:286][839]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.12.41:385][839]LogInit: FAudioDevice initialized.
-[2019.04.05-23.12.41:401][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.12.41:464][839]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.12.41:466][839]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.12.41
-[2019.04.05-23.12.41:466][839]LogWorld: Bringing up level for play took: 0.000831
-[2019.04.05-23.12.41:489][839]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard -0,128
-[2019.04.05-23.12.42:154][876]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.12.42:470][895]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MaterialChangeCast". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.12.43:153][936]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.12.43:321][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.12.43:339][946]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.12.43:380][946]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.12.43:451][947]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2019.04.05-23.12.47:636][198]LogEditorViewport: Clicking on Actor (LMB): MaterialChangerPlateform_C (MaterialChangerPlateform2)
-[2019.04.05-23.12.51:277][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.05-23.12.57:562][791]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.12.57:584][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.12.57:584][791]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:12:57)
-[2019.04.05-23.12.57:584][791]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.12.57:589][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004117s)
-[2019.04.05-23.12.57:590][791]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.12.57:590][791]LogPlayLevel: PIE: World Init took: (0.001010s)
-[2019.04.05-23.12.57:590][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.005367s)
-[2019.04.05-23.12.57:685][791]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.12.57:784][791]LogInit: FAudioDevice initialized.
-[2019.04.05-23.12.57:802][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.12.57:867][791]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.12.57:869][791]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.12.57
-[2019.04.05-23.12.57:869][791]LogWorld: Bringing up level for play took: 0.000767
-[2019.04.05-23.12.57:891][791]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,274
-[2019.04.05-23.12.58:563][828]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.12.59:562][888]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.13.00:562][948]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.13.00:679][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.13.00:696][955]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.13.00:738][955]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.13.00:805][956]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2019.04.05-23.13.32:510][720]LogSlate: Window 'Delete Variable' being destroyed
-[2019.04.05-23.14.06:986][755]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.14.07:104][755]LogBlueprint: Error: [Compiler FirstPersonCharacterv2] The type of  Object  is undetermined.  Connect something to  Cast To MaterialChangerPlateform  to imply a specific type.
-[2019.04.05-23.14.07:104][755]LogBlueprint: Error: [Compiler FirstPersonCharacterv2] The type of  Object  is undetermined.  Connect something to  Cast To MaterialChangerPlateform  to imply a specific type.
-[2019.04.05-23.14.07:105][755]LogBlueprint: Error: [Compiler FirstPersonCharacterv2] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
-[2019.04.05-23.14.07:107][755]LogBlueprint: Error: [Compiler FirstPersonCharacterv2] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
-[2019.04.05-23.14.07:276][755]LogBlueprint: Warning: [Compiler FirstPersonCharacterv2] [0826,43] Compile of FirstPersonCharacterv2 failed. 4 Fatal Issue(s) 0 Warning(s) [in 289 ms] (/Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2)
-[2019.04.05-23.14.07:678][759]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv226A75FF94BD2FFED254FFAA6977EFDF1.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.14.36:562][488]LogEditorTransaction: Undo Move Node
-[2019.04.05-23.14.36:894][496]LogEditorTransaction: Undo Move Node
-[2019.04.05-23.14.37:156][500]LogEditorTransaction: Undo Change Bool Pin Value
-[2019.04.05-23.14.37:358][501]LogEditorTransaction: Undo Create Pin Link
-[2019.04.05-23.14.37:566][502]LogEditorTransaction: Undo Move Nodes
-[2019.04.05-23.14.38:186][528]LogEditorTransaction: Undo Paste clipboard contents
-[2019.04.05-23.14.38:482][534]LogEditorTransaction: Undo Move Node
-[2019.04.05-23.14.38:940][551]LogEditorTransaction: Undo Create Pin Link
-[2019.04.05-23.14.39:217][557]LogEditorTransaction: Undo Move Node
-[2019.04.05-23.14.39:546][566]LogEditorTransaction: Undo Create Pin Link
-[2019.04.05-23.14.39:912][577]LogEditorTransaction: Undo Move Node
-[2019.04.05-23.14.40:248][586]LogEditorTransaction: Undo Create Pin Link
-[2019.04.05-23.14.40:617][597]LogEditorTransaction: Undo Resize Node
-[2019.04.05-23.14.41:221][622]LogEditorTransaction: Undo Move Node
-[2019.04.05-23.14.41:591][633]LogEditorTransaction: Undo Move Node
-[2019.04.05-23.14.42:536][679]LogEditorTransaction: Undo Move Node
-[2019.04.05-23.14.43:041][698]LogEditorTransaction: Undo Create Pin Link
-[2019.04.05-23.14.43:415][709]LogEditorTransaction: Undo Create Pin Link
-[2019.04.05-23.14.43:805][721]LogEditorTransaction: Undo Remove Variable
-[2019.04.05-23.14.44:094][727]LogEditorTransaction: Undo Delete current selection
-[2019.04.05-23.14.44:466][738]LogEditorTransaction: Undo Move Nodes
-[2019.04.05-23.14.45:101][765]LogEditorTransaction: Undo Paste clipboard contents
-[2019.04.05-23.14.45:502][778]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.05-23.14.56:358][429]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.14.57:113][434]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv21719E4E74092E8518115F0ADF6B3C655.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.14.58:112][493]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.14.58:138][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.14.58:138][493]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:14:58)
-[2019.04.05-23.14.58:138][493]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.14.58:142][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003077s)
-[2019.04.05-23.14.58:143][493]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.14.58:143][493]LogPlayLevel: PIE: World Init took: (0.001143s)
-[2019.04.05-23.14.58:143][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004379s)
-[2019.04.05-23.14.58:231][493]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.14.58:329][493]LogInit: FAudioDevice initialized.
-[2019.04.05-23.14.58:347][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.14.58:412][493]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.14.58:414][493]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.14.58
-[2019.04.05-23.14.58:414][493]LogWorld: Bringing up level for play took: 0.000767
-[2019.04.05-23.14.58:436][493]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,819
-[2019.04.05-23.14.59:109][530]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.15.00:108][590]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.15.01:109][650]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.15.02:109][710]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.15.03:108][770]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.15.04:108][830]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.15.05:110][890]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.15.06:109][950]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
-[2019.04.05-23.15.07:109][ 10]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 1.0
-[2019.04.05-23.15.08:109][ 70]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 0.0
-[2019.04.05-23.15.09:109][130]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -1.0
-[2019.04.05-23.15.10:109][190]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -2.0
-[2019.04.05-23.15.11:110][250]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -3.0
-[2019.04.05-23.15.12:110][310]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -4.0
-[2019.04.05-23.15.13:111][370]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -5.0
-[2019.04.05-23.15.14:110][430]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -6.0
-[2019.04.05-23.15.15:111][490]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -7.0
-[2019.04.05-23.15.16:110][550]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -8.0
-[2019.04.05-23.15.17:112][610]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -9.0
-[2019.04.05-23.15.18:110][670]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -10.0
-[2019.04.05-23.15.19:111][730]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -11.0
-[2019.04.05-23.15.20:111][790]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -12.0
-[2019.04.05-23.15.21:111][850]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -13.0
-[2019.04.05-23.15.22:111][910]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -14.0
-[2019.04.05-23.15.23:112][970]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -15.0
-[2019.04.05-23.15.24:112][ 30]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -16.0
-[2019.04.05-23.15.25:112][ 90]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -17.0
-[2019.04.05-23.15.26:112][150]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -18.0
-[2019.04.05-23.15.26:246][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.15.26:264][158]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.15.26:306][158]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.15.26:368][159]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2019.04.05-23.15.37:558][827]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.15.38:268][854]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.15.38:294][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.15.38:294][854]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:15:38)
-[2019.04.05-23.15.38:294][854]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.15.38:297][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002919s)
-[2019.04.05-23.15.38:298][854]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.15.38:298][854]LogPlayLevel: PIE: World Init took: (0.001277s)
-[2019.04.05-23.15.38:298][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.004371s)
-[2019.04.05-23.15.38:391][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.15.38:494][854]LogInit: FAudioDevice initialized.
-[2019.04.05-23.15.38:511][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.15.38:564][854]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.15.38:565][854]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.15.38
-[2019.04.05-23.15.38:565][854]LogWorld: Bringing up level for play took: 0.000723
-[2019.04.05-23.15.38:581][854]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard 0,965
-[2019.04.05-23.15.39:268][889]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.15.40:270][949]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.15.41:268][  9]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.15.42:268][ 69]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
-[2019.04.05-23.15.43:268][129]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
-[2019.04.05-23.15.43:719][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MaterialChangeCast". Blueprint:  FirstPersonCharacterv2 Function:  Execute Ubergraph First Person Characterv 2 Graph:  EventGraph Node:  Set NewVar_0
-[2019.04.05-23.15.44:269][189]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
-[2019.04.05-23.15.45:268][249]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
-[2019.04.05-23.15.46:269][309]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
-[2019.04.05-23.15.47:269][369]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 1.0
-[2019.04.05-23.15.48:269][429]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 0.0
-[2019.04.05-23.15.49:270][489]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -1.0
-[2019.04.05-23.15.50:270][549]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -2.0
-[2019.04.05-23.15.51:270][609]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -3.0
-[2019.04.05-23.15.52:270][669]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -4.0
-[2019.04.05-23.15.53:270][729]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -5.0
-[2019.04.05-23.15.54:270][789]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -6.0
-[2019.04.05-23.15.55:055][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.15.55:072][836]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.15.55:111][836]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.15.55:216][837]LogPlayLevel: Display: Destroying online subsystem :Context_25
-[2019.04.05-23.16.24:316][571]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.16.25:096][581]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv2BF20479F41F588CF971B25A87B136357.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.16.45:871][822]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.16.46:576][826]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv22B0C09884DF02B48F8E43A97838B72ED.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.16.49:066][962]BlueprintLog: New page: Compile FirstPersonCharacterv2
-[2019.04.05-23.16.49:764][967]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv202F33D83467E4C0E0774A9A648404833.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
-[2019.04.05-23.16.53:142][167]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.16.53:741][186]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/MaterialChangerPlateform81CFBC3444290C27486E0CAF1153443F.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/MaterialChangerPlateform.uasset'
-[2019.04.05-23.16.57:074][386]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.05-23.16.57:102][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.05-23.16.57:102][386]PIE: New page: PIE session: Map_Gaspard (6 avr. 2019 03:16:57)
-[2019.04.05-23.16.57:102][386]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard
-[2019.04.05-23.16.57:108][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005411s)
-[2019.04.05-23.16.57:108][386]LogAIModule: Creating AISystem for world Map_Gaspard
-[2019.04.05-23.16.57:108][386]LogPlayLevel: PIE: World Init took: (0.000853s)
-[2019.04.05-23.16.57:109][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.Map_Gaspard to /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard (0.006538s)
-[2019.04.05-23.16.57:199][386]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.04.05-23.16.57:292][386]LogInit: FAudioDevice initialized.
-[2019.04.05-23.16.57:310][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.16.57:366][386]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.05-23.16.57:367][386]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard.Map_Gaspard up for play (max tick rate 60) at 2019.04.06-01.16.57
-[2019.04.05-23.16.57:368][386]LogWorld: Bringing up level for play took: 0.000729
-[2019.04.05-23.16.57:383][386]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Blueprints/UEDPIE_0_Map_Gaspard -0,234
-[2019.04.05-23.16.58:064][423]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
-[2019.04.05-23.16.59:066][483]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
-[2019.04.05-23.17.00:065][543]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
-[2019.04.05-23.17.00:948][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.05-23.17.00:966][596]LogSlate: Window 'VVIRTUAL Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.04.05-23.17.01:006][596]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.05-23.17.01:074][597]LogPlayLevel: Display: Destroying online subsystem :Context_26
-[2019.04.05-23.17.20:659][762]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.17.21:477][796]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/MaterialChangerPlateformC0F9300E46B1852102B702951CFB51A3.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/MaterialChangerPlateform.uasset'
-[2019.04.05-23.17.31:348][380]BlueprintLog: New page: Compile MaterialChangerPlateform
-[2019.04.05-23.17.31:933][401]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/MaterialChangerPlateformB639CCA64DE3FE75D75BFEA9CA77DE9E.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/MaterialChangerPlateform.uasset'
-[2019.04.05-23.17.35:765][626]LogSavePackage: Moving '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Saved/Map_Gaspard3B5308BA423D7928AA264581225FF5F6.tmp' to '../../../../../SUPERPROJET/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/Map_Gaspard.umap'
+[2019.04.09-08.31.51:835][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-08.31.51:835][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.09-08.31.51:888][  0]LogHAL: Display: Platform has ~ 16 GB [17059704832 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.09-08.31.51:896][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.09-08.31.51:905][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.09-08.31.51:964][  0]LogInit: Computer: DAVO-PC
+[2019.04.09-08.31.51:964][  0]LogInit: User: Davo
+[2019.04.09-08.31.51:964][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.09-08.31.51:964][  0]LogInit: High frequency timer resolution =2.440224 MHz
+[2019.04.09-08.31.51:965][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.09-08.31.51:965][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.09-08.31.51:965][  0]LogMemory: Process Physical Memory: 107.23 MB used, 107.23 MB peak
+[2019.04.09-08.31.51:965][  0]LogMemory: Process Virtual Memory: 96.17 MB used, 96.17 MB peak
+[2019.04.09-08.31.51:965][  0]LogMemory: Physical Memory: 5548.12 MB used,  10721.29 MB free, 16269.40 MB total
+[2019.04.09-08.31.51:965][  0]LogMemory: Virtual Memory: 502.99 MB used,  10721.29 MB free, 8388608.00 MB total
+[2019.04.09-08.31.52:844][  0]LogInit: Using OS detected language (fr-FR).
+[2019.04.09-08.31.52:844][  0]LogInit: Using OS detected locale (fr-FR).
+[2019.04.09-08.31.52:906][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2019.04.09-08.31.53:080][  0]LogStreaming: Display: Took  0.218s to InitEngineTextLocalization.
+[2019.04.09-08.31.53:092][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.04.09-08.31.53:092][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.04.09-08.31.53:092][  0]LogInit: Setting process to DPI aware
+[2019.04.09-08.31.54:146][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.09-08.31.54:146][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.09-08.31.56:095][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-08.31.56:095][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.09-08.31.56:264][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2019.04.09-08.31.56:264][  0]LogD3D11RHI:       2983/0/7878 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.09-08.31.56:304][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2019.04.09-08.31.56:304][  0]LogD3D11RHI:       2983/0/7878 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2019.04.09-08.31.56:304][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.09-08.31.56:332][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.09-08.31.56:333][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.09-08.31.56:333][  0]LogWindows: EnumDisplayDevices:
+[2019.04.09-08.31.56:333][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.04.09-08.31.56:334][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.04.09-08.31.56:334][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.04.09-08.31.56:335][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2019.04.09-08.31.56:335][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.04.09-08.31.56:335][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.04.09-08.31.56:336][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.04.09-08.31.56:336][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2019.04.09-08.31.56:336][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2019.04.09-08.31.56:336][  0]LogD3D11RHI:   Driver Version: 416.94 (internal:25.21.14.1694, unified:416.94)
+[2019.04.09-08.31.56:336][  0]LogD3D11RHI:      Driver Date: 11-12-2018
+[2019.04.09-08.31.56:336][  0]LogRHI: Texture pool is 2088 MB (70% of 2983 MB)
+[2019.04.09-08.31.56:397][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.09-08.31.56:683][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.09-08.31.56:751][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../ProjetNeo/VVirtual/VVIRTUAL/Intermediate/Shaders/WorkingDirectory/11524/).
+[2019.04.09-08.31.56:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Davo/AppData/Local/Temp/UnrealShaderWorkingDir/3DA49588414EE26C2054F5854F25D952/'.
+[2019.04.09-08.31.57:656][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.09-08.31.57:710][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.09-08.31.57:760][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.09-08.31.57:794][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.09-08.31.57:859][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.09-08.31.57:910][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.09-08.31.57:941][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.09-08.31.57:995][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.09-08.31.58:018][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:146][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-08.31.58:171][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.09-08.31.58:339][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-08.31.58:339][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-08.31.58:387][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-08.31.58:387][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-08.31.58:421][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.09-08.31.58:447][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.09-08.31.58:479][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.09-08.31.58:551][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.09-08.31.58:594][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.09-08.31.58:594][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.09-08.31.59:529][  0]LogXGEController: Cleaning working directory: C:/Users/Davo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.09-08.31.59:530][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.09-08.31.59:530][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.09-08.31.59:530][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.09-08.32.02:339][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.09-08.32.02:600][  0]LogDerivedDataCache: Loaded boot cache 0.26s 71MB C:/Users/Davo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.09-08.32.02:601][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Davo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.09-08.32.02:601][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../ProjetNeo/VVirtual/VVIRTUAL/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.09-08.32.02:601][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.09-08.32.02:601][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../ProjetNeo/VVirtual/VVIRTUAL/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.09-08.32.02:601][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.09-08.32.02:693][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.09-08.32.02:709][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Davo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.09-08.32.02:709][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.09-08.32.02:709][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.09-08.32.02:765][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.09-08.32.02:827][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.09-08.32.02:959][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.09-08.32.05:510][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.04.09-08.32.09:554][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-08.32.12:002][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.09-08.32.12:185][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.09-08.32.12:198][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.09-08.32.12:220][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.09-08.32.12:220][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.09-08.32.12:803][  0]LogNetVersion: VVIRTUAL 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1343756483)
+[2019.04.09-08.32.20:296][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.151664 seconds
+[2019.04.09-08.32.20:340][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.09-08.32.20:340][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.09-08.32.20:340][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.09-08.32.48:706][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.09-08.32.48:731][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.09-08.32.49:977][  0]SourceControl: Source control is disabled
+[2019.04.09-08.32.49:977][  0]SourceControl: Source control is disabled
+[2019.04.09-08.32.50:072][  0]SourceControl: Source control is disabled
+[2019.04.09-08.32.50:090][  0]SourceControl: Source control is disabled
+[2019.04.09-08.32.51:620][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.09-08.32.51:821][  0]LogOcInput: OculusInput pre-init called
+[2019.04.09-08.32.52:560][  0]LogEngine: Initializing Engine...
+[2019.04.09-08.32.52:595][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-08.32.52:643][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.008 s
+[2019.04.09-08.32.52:643][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-08.32.52:643][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-08.32.52:645][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.002 s
+[2019.04.09-08.32.53:780][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.09-08.32.54:146][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.09-08.32.54:320][  0]LogInit: XAudio2 using 'Haut-parleurs (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-08.32.54:383][  0]LogInit: FAudioDevice initialized.
+[2019.04.09-08.32.54:383][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.09-08.32.54:507][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/Davo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.09-08.32.54:515][  0]LogInit: Texture streaming: Enabled
+[2019.04.09-08.32.54:665][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.09-08.32.54:769][  0]LogInit: Transaction tracking system initialized
+[2019.04.09-08.32.55:171][  0]BlueprintLog: New page: Editor Load
+[2019.04.09-08.32.56:467][  0]LocalizationService: Localization service is disabled
+[2019.04.09-08.33.00:801][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/ProjetNeo/VVirtual/VVIRTUAL/Content/' took 0.02s
+[2019.04.09-08.33.00:801][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.09-08.33.00:811][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.09-08.33.00:835][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.09-08.33.00:835][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-08.33.00:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-08.33.00:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-08.33.00:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-08.33.03:386][  0]SourceControl: Source control is disabled
+[2019.04.09-08.33.03:410][  0]Cmd: MAP LOAD FILE="../../../../../ProjetNeo/VVirtual/VVIRTUAL/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-08.33.03:410][  0]LogEditorServer: Warning: Can't find file '../../../../../ProjetNeo/VVirtual/VVIRTUAL/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.09-08.33.03:410][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-08.33.03:493][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82,233ms to complete.
+[2019.04.09-08.33.03:493][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.097
+[2019.04.09-08.33.05:935][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-08.33.06:089][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-08.33.06:099][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-08.33.06:109][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-08.33.06:348][  0]LogCollectionManager: Loaded 0 collections in 0.001364 seconds
+[2019.04.09-08.33.06:765][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/ProjetNeo/VVirtual/VVIRTUAL/Saved/Collections/' took 0.01s
+[2019.04.09-08.33.06:765][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/ProjetNeo/VVirtual/VVIRTUAL/Content/Developers/Davo/Collections/' took 0.01s
+[2019.04.09-08.33.06:765][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/ProjetNeo/VVirtual/VVIRTUAL/Content/Collections/' took 0.01s
+[2019.04.09-08.33.06:765][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.09-08.33.06:818][  0]LogContentBrowser: Native class hierarchy populated in 0.0520 seconds. Added 2572 classes and 603 folders.
+[2019.04.09-08.33.07:025][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.09-08.33.09:358][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.09-08.33.09:506][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.09-08.33.13:638][  0]LogSlate: Took 0.041643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.09-08.33.13:700][  0]LogSlate: Took 0.049554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.09-08.33.13:823][  0]LogSlate: Took 0.028520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.09-08.33.15:178][  0]LogRenderer: Reallocating scene render targets to support 744x468 Format 10 NumSamples 1 (Frame:1).
+[2019.04.09-08.33.17:758][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.09-08.33.17:758][  0]LogLoad: (Engine Initialization) Total time: 108.22 seconds
+[2019.04.09-08.33.17:758][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.09-08.33.17:949][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.09-08.33.18:339][  3]LogAssetRegistry: Asset discovery search completed in 72.8445 seconds
+[2019.04.09-08.33.18:343][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.09-08.33.18:344][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2019.04.09-08.33.18:444][  3]LogSlate: Took 0.035605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-08.33.19:258][  5]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-08.34.28:839][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.09-08.34.32:877][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-08.34.41:848][715]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.09-08.34.41:997][715]LogAssetEditorManager: Opening Asset editor for World /Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2019.04.09-08.34.42:158][715]Cmd: MAP LOAD FILE="../../../../../ProjetNeo/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-08.34.42:158][715]LightingResults: New page: Lighting Build
+[2019.04.09-08.34.42:183][715]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2019.04.09-08.34.42:185][715]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2019.04.09-08.34.42:230][715]MapCheck: New page: Map Check
+[2019.04.09-08.34.42:230][715]LightingResults: New page: Lighting Build
+[2019.04.09-08.34.42:554][715]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-08.34.42:698][715]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-08.34.42:788][715]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89,567ms to complete.
+[2019.04.09-08.34.42:789][715]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.645
+[2019.04.09-08.34.49:013][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.04.09-08.34.50:020][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.04.09-08.34.50:888][ 93]Cmd: DELETE
+[2019.04.09-08.34.50:888][ 93]Cmd: ACTOR DELETE
+[2019.04.09-08.34.51:067][ 93]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.09-08.34.51:105][ 93]LogEditorActor: Deleted 1 Actors (0.125 secs)
+[2019.04.09-08.34.52:688][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.04.09-08.35.02:392][754]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2019.04.09-08.35.02:719][754]LogSlate: Took 0.078758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.09-08.35.04:491][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2019.04.09-08.35.05:382][882]Cmd: DUPLICATE
+[2019.04.09-08.35.05:382][882]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.07:084][966]Cmd: DUPLICATE
+[2019.04.09-08.35.07:084][966]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.07:927][ 14]Cmd: DUPLICATE
+[2019.04.09-08.35.07:927][ 14]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.08:860][ 67]Cmd: DUPLICATE
+[2019.04.09-08.35.08:860][ 67]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.09:796][120]Cmd: DUPLICATE
+[2019.04.09-08.35.09:796][120]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.10:616][166]Cmd: DUPLICATE
+[2019.04.09-08.35.10:616][166]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.11:622][223]Cmd: DUPLICATE
+[2019.04.09-08.35.11:622][223]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.12:473][271]Cmd: DUPLICATE
+[2019.04.09-08.35.12:473][271]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.13:380][323]Cmd: DUPLICATE
+[2019.04.09-08.35.13:380][323]Cmd: ACTOR DUPLICATE
+[2019.04.09-08.35.15:683][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-08.35.24:784][  0]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.FirstPersonCharacterv2
+[2019.04.09-08.35.26:161][  0]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.04.09-08.35.28:655][  0]LogSlate: Took 0.013743 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.09-08.35.29:673][  1]LogSlate: Took 0.017659 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.09-08.35.32:567][136]LogRenderer: Reallocating scene render targets to support 936x540 Format 10 NumSamples 1 (Frame:1).
+[2019.04.09-08.36.44:990][360]BlueprintLog: New page: Compile FirstPersonCharacterv2
+[2019.04.09-08.36.46:988][448]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-08.36.47:037][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-08.36.47:037][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-08.36.47:098][448]PIE: New page: PIE session: FirstPersonExampleMap (9 avr. 2019 12:36:47)
+[2019.04.09-08.36.47:098][448]LogPlayLevel: Creating play world package: /Game/BLUEPRINTS/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.09-08.36.47:175][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077044s)
+[2019.04.09-08.36.47:188][448]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.09-08.36.47:188][448]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2019.04.09-08.36.47:188][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/BLUEPRINTS/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.090276s)
+[2019.04.09-08.36.47:294][448]LogInit: XAudio2 using 'Haut-parleurs (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-08.36.47:309][448]LogInit: FAudioDevice initialized.
+[2019.04.09-08.36.47:363][448]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.09-08.36.47:379][448]LogWorld: Bringing World /Game/BLUEPRINTS/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.04.09-10.36.47
+[2019.04.09-08.36.47:379][448]LogWorld: Bringing up level for play took: 0.001623
+[2019.04.09-08.36.47:500][448]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.04.09-08.36.47:534][448]PIE: Play in editor start time for /Game/BLUEPRINTS/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0,804
+[2019.04.09-08.36.47:534][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-08.36.48:393][482]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 9.0
+[2019.04.09-08.36.49:366][541]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 8.0
+[2019.04.09-08.36.50:366][601]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 7.0
+[2019.04.09-08.36.51:366][661]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 6.0
+[2019.04.09-08.36.52:379][721]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 5.0
+[2019.04.09-08.36.53:379][781]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 4.0
+[2019.04.09-08.36.54:380][841]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 3.0
+[2019.04.09-08.36.55:379][901]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 2.0
+[2019.04.09-08.36.56:380][961]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 1.0
+[2019.04.09-08.36.57:380][ 21]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] 0.0
+[2019.04.09-08.36.58:380][ 81]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -1.0
+[2019.04.09-08.36.59:380][141]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -2.0
+[2019.04.09-08.37.00:380][201]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -3.0
+[2019.04.09-08.37.01:380][261]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -4.0
+[2019.04.09-08.37.02:381][321]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -5.0
+[2019.04.09-08.37.03:381][381]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -6.0
+[2019.04.09-08.37.04:381][441]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -7.0
+[2019.04.09-08.37.05:382][501]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -8.0
+[2019.04.09-08.37.06:381][561]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -9.0
+[2019.04.09-08.37.07:382][621]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -10.0
+[2019.04.09-08.37.08:382][681]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -11.0
+[2019.04.09-08.37.09:382][741]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -12.0
+[2019.04.09-08.37.10:382][801]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -13.0
+[2019.04.09-08.37.11:382][861]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -14.0
+[2019.04.09-08.37.12:382][921]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -15.0
+[2019.04.09-08.37.13:382][981]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -16.0
+[2019.04.09-08.37.14:382][ 41]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -17.0
+[2019.04.09-08.37.15:382][101]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -18.0
+[2019.04.09-08.37.16:383][161]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -19.0
+[2019.04.09-08.37.17:382][221]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -20.0
+[2019.04.09-08.37.18:382][281]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -21.0
+[2019.04.09-08.37.19:383][341]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -22.0
+[2019.04.09-08.37.20:384][401]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -23.0
+[2019.04.09-08.37.21:384][461]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -24.0
+[2019.04.09-08.37.22:384][521]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -25.0
+[2019.04.09-08.37.23:384][581]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -26.0
+[2019.04.09-08.37.24:384][641]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -27.0
+[2019.04.09-08.37.25:384][701]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -28.0
+[2019.04.09-08.37.26:384][761]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -29.0
+[2019.04.09-08.37.27:385][821]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -30.0
+[2019.04.09-08.37.28:384][881]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -31.0
+[2019.04.09-08.37.29:385][941]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -32.0
+[2019.04.09-08.37.30:385][  1]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -33.0
+[2019.04.09-08.37.31:385][ 61]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -34.0
+[2019.04.09-08.37.32:385][121]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -35.0
+[2019.04.09-08.37.33:385][181]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -36.0
+[2019.04.09-08.37.34:386][241]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -37.0
+[2019.04.09-08.37.35:386][301]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -38.0
+[2019.04.09-08.37.36:385][361]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -39.0
+[2019.04.09-08.37.37:386][421]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -40.0
+[2019.04.09-08.37.38:387][481]LogBlueprintUserMessages: [FirstPersonCharacterv2_C_0] -41.0
+[2019.04.09-08.37.38:737][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-08.37.38:768][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-08.37.38:798][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-08.37.38:799][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.09-08.37.38:839][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-08.37.38:979][503]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.04.09-08.37.39:900][542]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.09-08.37.40:553][542]LogSavePackage: Moving '../../../../../ProjetNeo/VVirtual/VVIRTUAL/Saved/FirstPersonExampleMap64399198443D15A92EA16DA4683E9382.tmp' to '../../../../../ProjetNeo/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.09-08.37.47:217][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-08.37.48:415][943]LogSlate: Window 'Save Content' being destroyed
+[2019.04.09-08.37.48:651][943]LogSavePackage: Moving '../../../../../ProjetNeo/VVirtual/VVIRTUAL/Saved/FirstPersonCharacterv2C37225BA48D13D878975308302D50F16.tmp' to '../../../../../ProjetNeo/VVirtual/VVIRTUAL/Content/BLUEPRINTS/FirstPersonBP/Blueprints/FirstPersonCharacterv2.uasset'
+[2019.04.09-08.37.48:988][943]LogSlate: Window 'VVIRTUAL - Unreal Editor' being destroyed
+[2019.04.09-08.37.49:484][944]Cmd: QUIT_EDITOR
+[2019.04.09-08.37.49:702][944]LogExit: Preparing to exit.
+[2019.04.09-08.37.49:883][944]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.04.09-08.37.49:883][944]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.04.09-08.37.50:018][944]LogExit: Editor shut down
+[2019.04.09-08.37.50:019][944]LogExit: Transaction tracking system shut down
+[2019.04.09-08.37.51:086][944]LogExit: Object subsystem successfully closed.
+[2019.04.09-08.37.51:120][944]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.09-08.37.51:124][944]LogD3D11RHI: Shutdown
+[2019.04.09-08.37.51:124][944]LogD3D11RHI: CleanupD3DDevice
+[2019.04.09-08.37.51:136][944]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (608)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module SceneOutliner (606)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module AddContentDialog (604)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module WidgetCarousel (603)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module EditorWidgets (600)
+[2019.04.09-08.37.51:621][944]LogModuleManager: Shutting down and abandoning module CollectionManager (598)
+[2019.04.09-08.37.51:640][944]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.04.09-08.37.51:640][944]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.04.09-08.37.51:666][944]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.04.09-08.37.51:685][944]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.04.09-08.37.51:685][944]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.04.09-08.37.51:793][944]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.04.09-08.37.51:793][944]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.04.09-08.37.51:793][944]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.04.09-08.37.51:794][944]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.04.09-08.37.51:811][944]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.04.09-08.37.51:837][944]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.04.09-08.37.51:859][944]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.04.09-08.37.51:876][944]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.04.09-08.37.51:876][944]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.04.09-08.37.51:886][944]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.04.09-08.37.51:886][944]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.04.09-08.37.51:887][944]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.04.09-08.37.51:887][944]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.04.09-08.37.51:887][944]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.04.09-08.37.52:773][944]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.04.09-08.37.52:773][944]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.04.09-08.37.52:773][944]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.04.09-08.37.52:773][944]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.04.09-08.37.52:773][944]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.04.09-08.37.52:800][944]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.04.09-08.37.52:800][944]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.04.09-08.37.52:813][944]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.04.09-08.37.52:832][944]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.04.09-08.37.52:832][944]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.04.09-08.37.52:850][944]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.04.09-08.37.52:850][944]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.04.09-08.37.52:900][944]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.04.09-08.37.52:900][944]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.04.09-08.37.52:925][944]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.04.09-08.37.52:925][944]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.04.09-08.37.52:925][944]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.04.09-08.37.52:925][944]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.04.09-08.37.52:925][944]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.04.09-08.37.52:941][944]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.04.09-08.37.52:941][944]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.04.09-08.37.52:941][944]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.04.09-08.37.52:946][944]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.04.09-08.37.52:946][944]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.04.09-08.37.52:946][944]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.04.09-08.37.52:946][944]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.09-08.37.52:964][944]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.09-08.37.52:964][944]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.09-08.37.52:964][944]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.09-08.37.52:972][944]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.09-08.37.52:973][944]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.09-08.37.52:981][944]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.04.09-08.37.52:982][944]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.04.09-08.37.53:019][944]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.04.09-08.37.53:020][944]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.04.09-08.37.53:020][944]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.04.09-08.37.53:032][944]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.04.09-08.37.53:032][944]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.04.09-08.37.53:032][944]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.04.09-08.37.53:032][944]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.04.09-08.37.53:050][944]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.09-08.37.53:051][944]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.04.09-08.37.53:051][944]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.04.09-08.37.53:051][944]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.04.09-08.37.53:071][944]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.04.09-08.37.53:085][944]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.04.09-08.37.53:085][944]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.04.09-08.37.53:086][944]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.04.09-08.37.53:086][944]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.04.09-08.37.53:086][944]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.04.09-08.37.53:086][944]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.04.09-08.37.53:086][944]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.04.09-08.37.53:086][944]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.04.09-08.37.53:086][944]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.04.09-08.37.53:101][944]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.04.09-08.37.53:101][944]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.04.09-08.37.53:101][944]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.04.09-08.37.53:101][944]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.04.09-08.37.53:101][944]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.04.09-08.37.53:101][944]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.04.09-08.37.53:101][944]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.04.09-08.37.53:123][944]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.09-08.37.53:124][944]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.09-08.37.53:224][944]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.09-08.37.53:324][944]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.09-08.37.53:324][944]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.09-08.37.53:378][944]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.09-08.37.53:378][944]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.09-08.37.53:378][944]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.09-08.37.53:378][944]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.09-08.37.53:395][944]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.09-08.37.53:396][944]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.09-08.37.53:396][944]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.09-08.37.53:396][944]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.09-08.37.53:397][944]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.09-08.37.53:397][944]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.09-08.37.53:398][944]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.09-08.37.53:398][944]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.09-08.37.53:398][944]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.09-08.37.53:398][944]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.09-08.37.53:398][944]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.09-08.37.53:398][944]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.09-08.37.53:405][944]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.09-08.37.53:410][944]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.09-08.37.53:410][944]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.09-08.37.53:410][944]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.09-08.37.53:427][944]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.09-08.37.53:427][944]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.09-08.37.53:427][944]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.09-08.37.53:427][944]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.09-08.37.53:442][944]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.09-08.37.53:455][944]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.09-08.37.53:455][944]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.09-08.37.53:466][944]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.09-08.37.53:466][944]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.09-08.37.53:466][944]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.09-08.37.53:466][944]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.09-08.37.53:478][944]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.09-08.37.53:495][944]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.09-08.37.53:512][944]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.09-08.37.53:512][944]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.09-08.37.53:528][944]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.09-08.37.53:528][944]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.09-08.37.53:529][944]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.09-08.37.53:529][944]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.09-08.37.53:529][944]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.09-08.37.53:529][944]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.09-08.37.53:529][944]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.09-08.37.53:529][944]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.09-08.37.53:530][944]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.09-08.37.53:530][944]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.09-08.37.53:530][944]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.09-08.37.53:537][944]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.09-08.37.53:537][944]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.09-08.37.53:537][944]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.09-08.37.53:544][944]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.09-08.37.53:573][944]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.09-08.37.53:573][944]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.09-08.37.53:586][944]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.09-08.37.53:601][944]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.09-08.37.53:602][944]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.09-08.37.53:616][944]LogDerivedDataCache: Shutdown
+[2019.04.09-08.37.53:616][944]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.09-08.37.53:616][944]LogXGEController: Cleaning working directory: C:/Users/Davo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.09-08.37.53:617][944]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.09-08.37.53:617][944]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.09-08.37.53:617][944]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.09-08.37.53:617][944]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.09-08.37.53:631][944]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.09-08.37.53:631][944]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.09-08.37.53:638][944]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.09-08.37.53:639][944]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.09-08.37.53:640][944]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.09-08.37.53:640][944]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.09-08.37.53:645][944]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.09-08.37.53:646][944]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.09-08.37.53:653][944]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.09-08.37.53:725][944]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.09-08.37.53:725][944]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.09-08.37.53:725][944]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B13C06A96-4807-78B0-3662-3D9AA22AD6F7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=fa085f4341de5d6170229996f45a854d%7C5edd635fc95b46809bdb8aec8acf509d%7Cc86cc5ac-2eb8-4fc7-8941-08952f4f3921&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.09-08.37.53:748][944]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.09-08.37.53:749][944]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.09-08.37.53:749][944]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.09-08.37.53:781][944]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.09-08.37.53:781][944]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.09-08.37.53:795][944]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.09-08.37.53:795][944]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.09-08.37.53:795][944]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.09-08.37.53:795][944]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.09-08.37.53:808][944]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.09-08.37.53:815][944]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.09-08.37.53:821][944]LogExit: Exiting.
+[2019.04.09-08.37.53:828][944]Log file closed, 04/09/19 10:37:53
